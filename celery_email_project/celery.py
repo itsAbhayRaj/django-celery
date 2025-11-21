@@ -8,6 +8,9 @@ app = Celery('celery_email_project')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # CELERY Beat settings
+app.conf.beat_schedule = {
+    ''
+}
 
 app.autodiscover_tasks()
 
