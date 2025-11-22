@@ -7,7 +7,7 @@
 
 Before testing, ensure:
 - Django server is running: `python manage.py runserver`
-- Redis is running: `redis-server`
+                                                                                                                               - Redis is running: `redis-server`
 - Celery worker is running: `celery -A celery_email_project worker --loglevel=info`
 - Required dependencies are installed: `pip install -r requirements.txt`
 
